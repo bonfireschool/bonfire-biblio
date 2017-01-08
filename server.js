@@ -10,11 +10,18 @@ var port = process.env.PORT || 3000
 
 var router = express.Router()
 
-router.get('/', function(req, res) {
-	res.json({ message: 'bonfire api'})
+router.use(function(res, req, next) {
+    console.log("Access")
+    next()
 })
 
-app.use('/api', router)
+
+// Our routes
+router.get('/', function(req, res) {
+    res.json({ message: 'Test this.' })
+})
+
+app.use('/api', router);
 
 app.listen(port)
 console.log('It starts on port ' + port);
