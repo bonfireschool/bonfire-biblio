@@ -1,4 +1,4 @@
-use radiologger;
+use bonfirebiblio;
 
 drop table user;
 drop table site;
@@ -16,7 +16,8 @@ create table user
     updated_at timestamp null,
     username varchar(20),
     password_hash varchar(100),
-    full_name varchar(50)
+    full_name varchar(50),
+    PRIMARY KEY (id)
 );
 
 create table site
@@ -24,7 +25,8 @@ create table site
     id integer not null AUTO_INCREMENT,
     created_at timestamp null,
     updated_at timestamp null,
-    url varchar(100)
+    url varchar(100),
+    PRIMARY KEY (id)
 );
 
 create table source
@@ -36,7 +38,8 @@ create table source
     publisher_id integer,
     title varchar(200),
     date_published timestamp null,
-    site_id integer null
+    site_id integer null,
+    PRIMARY KEY (id)
 );
 
 create table author
@@ -45,7 +48,8 @@ create table author
     created_at timestamp null,
     updated_at timestamp null,
     name varchar(50),
-    contact_information_id integer null
+    contact_information_id integer null,
+    PRIMARY KEY (id)
 );
 
 create table contact_information
@@ -56,6 +60,7 @@ create table contact_information
     address varchar(200),
     phone_number varchar(10),
     website_id integer null,
+    PRIMARY KEY (id)
     -- More here 
 );
 
@@ -65,7 +70,8 @@ create table publisher
     created_at timestamp null,
     updated_at timestamp null,
     name varchar(100),
-    contact_information_id integer null
+    contact_information_id integer null,
+    PRIMARY KEY (id)
 );
 
 create table bibliography
@@ -74,6 +80,7 @@ create table bibliography
     created_at timestamp null,
     updated_at timestamp null,
     name varchar(100) null,
+    PRIMARY KEY (id)
 );
 
 create table entry
@@ -86,7 +93,8 @@ create table entry
     last_page integer null,
     note_id integer null,
     quote_id integer null,
-    keywords varchar(100) null
+    keywords varchar(100) null,
+    PRIMARY KEY (id)
 );
 
 create table bibliography_entry_xref
@@ -95,6 +103,7 @@ create table bibliography_entry_xref
     created_at timestamp null,
     updated_at timestamp null,
     bibliography_id integer,
-    entry_id integer
+    entry_id integer,
+    PRIMARY KEY (id)
 );
 
