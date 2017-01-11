@@ -17,4 +17,4 @@ To run :
 Pre-requisites : 
 - nodejs
 - express
-- sequelize (mysql orm)
+- mongoose (mongodb orm)
