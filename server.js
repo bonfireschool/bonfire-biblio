@@ -25,3 +25,4 @@ app.use('/api', router);
 
 app.listen(port)
 console.log('It starts on port ' + port);
+
