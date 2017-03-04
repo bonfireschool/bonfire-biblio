@@ -2,6 +2,7 @@
   "name": "bonfire-biblio",
   "main": "server.js",
   "dependencies": {
+    "auto-loader": "^0.2.0",
     "body-parser": "~1.15.2",
     "express": "~4.14.0",
     "mongoose": "^4.7.6",
@@ -23,10 +24,12 @@
     "sharing"
   ],
   "author": "Michael Cojocari <mike@bonfireschool.com>",
-  "contributors": [{
-    "name": "Louis Rawlins",
-    "email": "louis@bonfireschool.com"
-  }],
+  "contributors": [
+    {
+      "name": "Louis Rawlins",
+      "email": "louis@bonfireschool.com"
+    }
+  ],
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/bonfireschool/bonfire-biblio/issues"
