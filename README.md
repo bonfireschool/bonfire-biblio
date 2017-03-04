@@ -14,6 +14,11 @@ To install :
 To run :
 - node server.js
 
+To run seeder :
+- cd <projects directory>/scripts/seeder
+- node deleter.js
+- node seeder.js
+
 Pre-requisites : 
 - nodejs
 - express
