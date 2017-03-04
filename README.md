@@ -3,14 +3,14 @@
 This will be a restful service for bibliography management.  
 
 To install : 
-- cd <project directory>
+- cd [project directory]
 - npm install
 
 To run :
 - node server.js
 
 To run seeder :
-- cd <projects directory>/scripts/seeder
+- cd [projects directory]/scripts/seeder
 - node deleter.js
 - node seeder.js
 
