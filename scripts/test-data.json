@@ -1,0 +1,87 @@
+{
+  "bibliographies" : {
+    "Clock Of The Long Now: Time And Responsibility: The Ideas Behind The World's Slowest Computer" : {
+      ".priority" : 1.0,
+      "author" : "Stewart Brand",
+      "title" : "Clock Of The Long Now: Time And Responsibility: The Ideas Behind The World's Slowest Computer",
+      "website" : "http://www.amazon.com/Clock-The-Long-Now-Responsibility/dp/0465007805"
+    },
+    "Crafting Phenomenological Research" : {
+      "author" : "Mark D Vagle",
+      "title" : "Crafting Phenomenological Research",
+      "website" : "http://www.amazon.com/Crafting-Phenomenological-Research-Mark-Vagle/dp/1611323029"
+    },
+    "Healing Developmental Trauma: How Early Trauma Affects Self-Regulation, Self-Image, and the Capacity for Relationship" : {
+      ".priority" : 1.0,
+      "author" : "Laurence Heller and Aline LaPierre",
+      "title" : "Healing Developmental Trauma: How Early Trauma Affects Self-Regulation, Self-Image, and the Capacity for Relationship",
+      "website" : "http://www.drlaurenceheller.com/books.html"
+    },
+    "In an Unspoken Voice: How the Body Releases Trauma and Restores Goodness" : {
+      ".priority" : 1.0,
+      "author" : "Peter A. Levine",
+      "title" : "In an Unspoken Voice: How the Body Releases Trauma and Restores Goodness",
+      "website" : "http://www.amazon.com/In-Unspoken-Voice-Releases-Restores/dp/1556439431"
+    },
+    "Phenomenology of Practice: Meaning-Giving Methods in Phenomenological Research and Writing" : {
+      ".priority" : 1.0,
+      "author" : "Max van Manen",
+      "title" : "Phenomenology of Practice: Meaning-Giving Methods in Phenomenological Research and Writing",
+      "website" : "http://www.amazon.com/Phenomenology-Practice-Meaning-Giving-Phenomenological-Qualitative/dp/1611329442"
+    },
+    "Technology and Culture (The official publication of the Society for the History of Technology)" : {
+      ".priority" : 1.0,
+      "author" : "Various Authors",
+      "title" : "Technology and Culture (The official publication of the Society for the History of Technology)",
+      "website" : "http://www.historyoftechnology.org/etc/index.html"
+    },
+    "The Anti-Education Era: Creating Smarter Students through Digital Learning" : {
+      ".priority" : 1.0,
+      "author" : "James Paul Gee",
+      "title" : "The Anti-Education Era: Creating Smarter Students through Digital Learning",
+      "website" : "http://www.amazon.com/The-Anti-Education-Era-Creating-Students/dp/0230342094"
+    },
+    "The Body Keeps the Score: Brain, Mind, and Body in the Healing of Trauma" : {
+      ".priority" : 1.0,
+      "author" : "Bessel van der Kolk MD",
+      "title" : "The Body Keeps the Score: Brain, Mind, and Body in the Healing of Trauma",
+      "website" : "http://www.amazon.com/The-Body-Keeps-Score-Healing/dp/0670785938"
+    },
+    "The Comprehension Experience: Engaging Readers Through Effective Inquiry and Discussion" : {
+      ".priority" : 1.0,
+      "author" : "W Dorsey Hammond and Denise D Nessel",
+      "title" : "The Comprehension Experience: Engaging Readers Through Effective Inquiry and Discussion",
+      "website" : "http://www.heinemann.com/products/E03041.aspx"
+    },
+    "The Systems View of Life: A Unifying Vision" : {
+      ".priority" : 1.0,
+      "author" : "Professor Fritjof Capra, Pier Luigi Luisi",
+      "title" : "The Systems View of Life: A Unifying Vision",
+      "website" : "http://www.amazon.com/The-Systems-View-Life-Unifying/dp/1107011361"
+    },
+    "The Triumph of Human Empire: Verne, Morris, and Stevenson at the End of the World" : {
+      ".priority" : 1.0,
+      "author" : "Rosalind Williams",
+      "title" : "The Triumph of Human Empire: Verne, Morris, and Stevenson at the End of the World",
+      "website" : "http://www.amazon.com/The-Triumph-Human-Empire-Stevenson/dp/0226899551"
+    },
+    "Tribal Leadership: Leveraging Natural Groups to Build a Thriving Organization" : {
+      ".priority" : 1.0,
+      "author" : "Dave Logan, John King, Halee Fischer-Wright",
+      "title" : "Tribal Leadership: Leveraging Natural Groups to Build a Thriving Organization",
+      "website" : "http://www.triballeadership.net/book"
+    },
+    "Waking the Tiger: The Innate Capacity to Transform Overwhelming Experiences" : {
+      ".priority" : 1.0,
+      "author" : "Peter A. Levine",
+      "title" : "Waking the Tiger: The Innate Capacity to Transform Overwhelming Experiences",
+      "website" : "http://www.traumahealing.com/somatic-experiencing/waking-tiger.html"
+    },
+    "Win the Crowd: Unlock the Secrets of Influence, Charisma, and Showmanship" : {
+      ".priority" : 1.0,
+      "author" : "Steve Cohen",
+      "title" : "Win the Crowd: Unlock the Secrets of Influence, Charisma, and Showmanship",
+      "website" : "http://www.amazon.com/Win-Crowd-Influence-Charisma-Showmanship/dp/0060742054"
+    }
+  }
+}
