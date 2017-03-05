@@ -8,4 +8,4 @@ var QuoteSchema = new Schema({
 	created_at: Date
 });
 
-module.exports = mongoose.model('Quotes', QuotesSchema);
+module.exports = mongoose.model('Quotes', QuoteSchema);

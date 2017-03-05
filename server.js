@@ -11,10 +11,10 @@ const util = require('util')
 var port = process.env.PORT || 3000
 
 // Models
-var Categories = require('./models/categories');
-var Quotes = require('./models/quotes');
-var Authors = require('./models/authors');
-var Publishers = require('./models/publishers');
+var Categories = require('./models/category');
+var Quotes = require('./models/quote');
+var Authors = require('./models/author');
+var Publishers = require('./models/publisher');
 
 var router = express.Router()
 
