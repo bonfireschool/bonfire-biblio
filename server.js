@@ -39,8 +39,8 @@ router.route('/categories')
 				res.send(err);
 
 			res.json(categories);
-		});
 	});
+});
 
 router.route('/quotes')
 
@@ -50,8 +50,8 @@ router.route('/quotes')
 				res.send(err);
 
 			res.json(quotes);
-		})
-	});
+	})
+});
 
 router.route('/authors')
 	.get(function(req, res) {
@@ -60,8 +60,8 @@ router.route('/authors')
 				res.send(err);
 
 			res.json(authors);
-		});
 	});
+});
 
 router.route('/publishers')
 	.get(function(req, res) {
@@ -70,12 +70,12 @@ router.route('/publishers')
 				res.send(err);
 
 			res.json(authors);
-		});
 	});
+});
 // END - Public Categories
 
 
-app.use('/api', router);
+app.use('/', router);
 
 app.listen(port)
 console.log('It starts on port ' + port);

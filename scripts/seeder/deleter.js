@@ -22,10 +22,10 @@ Category.find({}, function(err, categories) {
 	});
 });
 
-Quote.find({}, function(err, Quote) {
+Quote.find({}, function(err, quotes) {
 	if (err) throw err;
 
-	Quote.forEach(function(quote) {
+	quotes.forEach(function(quote) {
 		quote.remove(function(err) {
 			if (err) throw err;
 		});
