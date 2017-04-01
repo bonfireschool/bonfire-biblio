@@ -10,3 +10,12 @@ exports.list =
 		});
 	};
 
+exports.get = 
+	function(req, res) {
+		Categories.findById(req.params.category_id, function(err, category) {
+			if (err)
+				res.send(err);
+			res.json(category);
+		});
+	};
+
