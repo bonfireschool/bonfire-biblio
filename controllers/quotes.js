@@ -10,3 +10,11 @@ exports.list =
 		});
 	};
 
+exports.get = 
+	function(req, res) {
+		Quotes.findById(req.params.quote_id, function(err, quote) {
+			if (err)
+				res.send(err);
+			res.json(quote);
+		});
+	};

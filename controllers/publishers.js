@@ -9,4 +9,13 @@ exports.list =
 			res.json(publishers);
 		});
 	};
+	
+exports.get = 
+	function(req, res) {
+		Publishers.findById(req.params.publisher_id, function(err, publisher) {
+			if (err)
+				res.send(err);
+			res.json(publisher);
+		});
+	};
 
