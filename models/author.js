@@ -1,6 +1,6 @@
-var mongoose = require('mongoose');
+var BonfireMongo = require('../bonfire').BonfireMongo;
 
-var Schema = mongoose.Schema;
+var Schema = BonfireMongo.Schema;
 
 var AuthorSchema = new Schema({
 	_id: String,
@@ -14,4 +14,4 @@ var AuthorSchema = new Schema({
 });
 
 
-module.exports = mongoose.model('Author', AuthorSchema);
+module.exports = BonfireMongo.model('Author', AuthorSchema);

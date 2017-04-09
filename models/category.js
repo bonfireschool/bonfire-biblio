@@ -1,10 +1,10 @@
-var mongoose = require('mongoose');
+var BonfireMongo = require('../bonfire').BonfireMongo;
 
-var Schema = mongoose.Schema;
+var Schema = BonfireMongo.Schema;
 
 var CategorySchema = new Schema({
 	_id: String,
 	name: String,
 });
 
-module.exports = mongoose.model('Category', CategorySchema);
+module.exports = BonfireMongo.model('Category', CategorySchema);

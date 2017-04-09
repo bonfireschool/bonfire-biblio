@@ -1,6 +1,6 @@
-var mongoose = require('mongoose');
+var BonfireMongo = require('../bonfire').BonfireMongo;
 
-var Schema = mongoose.Schema;
+var Schema = BonfireMongo.Schema;
 
 var QuoteSchema = new Schema({
 	entry_id: String,
@@ -8,4 +8,4 @@ var QuoteSchema = new Schema({
 	created_at: Date
 });
 
-module.exports = mongoose.model('Quotes', QuoteSchema);
+module.exports = BonfireMongo.model('Quotes', QuoteSchema);
