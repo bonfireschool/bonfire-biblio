@@ -18,3 +18,15 @@ exports.get =
 			res.json(author);
 		});
 	};
+
+exports.post =
+	function(req, res) {
+		var author = new Author(req.body);
+
+		author.save(function(err, author) {
+			if (err)
+				res.send(err);
+
+			res.json(author);
+		});
+	};

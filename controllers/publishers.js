@@ -19,3 +19,14 @@ exports.get =
 		});
 	};
 
+exports.post = 
+	function(req, res) {
+		publisher = new Publisher(req.body);
+
+		publisher.save(function(err, publisher) {
+			if (err)
+				res.end(err);
+
+			res.json(publisher);
+		});
+	};

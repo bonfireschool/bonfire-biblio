@@ -18,3 +18,15 @@ exports.get =
 			res.json(quote);
 		});
 	};
+
+exports.post =
+	function(req, res) {
+		var quote = new Quote(req.body);
+
+		quote.save(function(err, quote) {
+			if (err)
+				res.send(err);
+
+			res.json(quote);
+		});
+	};

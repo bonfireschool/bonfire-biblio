@@ -1,8 +1,5 @@
 // This is a seeder script, not to be used in production. 
 
-var mongoose = require('mongoose');
-mongoose.connect('mongodb://bonfire:bonfire@ds149049.mlab.com:49049/bonfire');
-
 var Category = require('../../models/category');
 var Author = require('../../models/author');
 var Entry = require('../../models/entry');

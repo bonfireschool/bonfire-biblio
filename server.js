@@ -1,12 +1,12 @@
 
 var app = require('express')()
 var bodyParser = require('body-parser')
-app.use(bodyParser.urlencoded({ extended: true }))
+app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json());
 
-const util = require('util')
+var port = require('./bonfire').BonfirePort;
 
-var port = process.env.PORT || 3000
+const util = require('util')
 
 var router = require('./routes');
 
