@@ -2,6 +2,8 @@ var Category = require('../models/category');
 
 exports.list = 
 	function(req, res) {
+		console.log(req.headers);
+
 		Category.find(function(err, categories) {
 			if (err)
 				res.send(err);
