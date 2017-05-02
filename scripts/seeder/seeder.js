@@ -42,16 +42,6 @@ newCategories.forEach(function(category) {
 })
 
 
-// var AuthorsSchema = new Schema({
-// 	_id: String,
-// 	name: String,
-// 	contact: { 
-// 		email: String,
-// 		cell_phone: String,
-// 		website: String,
-// 		address: String,
-// 	},
-// });
 var newAuthors = [];
 
 newAuthors.push(new Author({
