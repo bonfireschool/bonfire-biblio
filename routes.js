@@ -15,8 +15,9 @@ var categoryController = require('./controllers/categories');
 var quoteController = require('./controllers/quotes');
 var authorController = require('./controllers/authors');
 var publisherController = require('./controllers/publishers');
+var entryController = require('./controllers/entries');
 
-// BEGIN - Public Categories
+// End points
 routes.route('/categories').get(categoryController.list);
 routes.route('/categories/:category_id').get(categoryController.get);
 routes.route('/categories').post(categoryController.post);
@@ -32,6 +33,8 @@ routes.route('/authors').post(authorController.post);
 routes.route('/publishers').get(publisherController.list);
 routes.route('/publishers/:publisher_id').get(publisherController.get);
 routes.route('/publishers').post(publisherController.post);
-// END - Public Categories
+
+routes.route('/entries').get(entryController.list);
+routes.route('/publishers/:publisher_id').get(entryController.get);
 
 module.exports = routes;
