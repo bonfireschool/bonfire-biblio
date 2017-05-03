@@ -1,4 +1,4 @@
-var Publishers = require('../models/publisher');
+var Publishers = require('../models/Publisher');
 var Controller = require('./Controller');
 var controller = new Controller();
 

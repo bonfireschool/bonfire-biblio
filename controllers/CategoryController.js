@@ -1,4 +1,4 @@
-var Category = require('../models/category');
+var Category = require('../models/Category');
 var Controller = require('./Controller');
 var controller = new Controller();
 

@@ -1,4 +1,4 @@
-var Authors = require('../models/author');
+var Authors = require('../models/Author');
 var Controller = require('./Controller.js');
 var controller = new Controller();
 

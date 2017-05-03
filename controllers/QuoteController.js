@@ -1,4 +1,4 @@
-var Quotes = require('../models/quote');
+var Quotes = require('../models/Quote');
 var Controller = require('./Controller');
 var controller = new Controller();
 

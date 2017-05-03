@@ -1,4 +1,4 @@
-var Entries = require('../models/entry');
+var Entries = require('../models/Entity');
 var Controller = require('./Controller');
 var controller = new Controller();
 

@@ -1,11 +1,11 @@
 // This is a seeder script, not to be used in production. 
 
-var Category = require('../../models/category');
-var Author = require('../../models/author');
-var Entry = require('../../models/entry');
-var Note = require('../../models/note');
-var Publisher = require('../../models/publisher');
-var Quote = require('../../models/quote');
+var Category = require('../../models/Category');
+var Author = require('../../models/Author');
+var Entry = require('../../models/Entity');
+var Note = require('../../models/Note');
+var Publisher = require('../../models/Publisher');
+var Quote = require('../../models/Quote');
 
 // Empty out the database
 Category.find({}, function(err, categories) {
