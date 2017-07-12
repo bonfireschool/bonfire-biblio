@@ -12,6 +12,9 @@
   },
   "description": "This will be a restful service for bibliography management.",
   "version": "0.0.1",
+  "engines": {
+    "node": "6.11.1"
+  }
   "devDependencies": {},
   "repository": {
     "type": "git",
